@@ -6,7 +6,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 const ExerciseCard = ({ exercise, isFavorite, addFavorite, removeFavorite, isInProfile }) => {
   const handleFavoriteClick = (e) => {
-    e.preventDefault(); // evitar que el link se active al clickear favorito
+    e.preventDefault(); // evita que el link se active al clickear favorito
     if (isFavorite) {
       removeFavorite(exercise.id);
     } else {
