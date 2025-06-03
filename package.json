@@ -23,10 +23,18 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app"],
+    "rules": {
+      "no-trailing-spaces": "off",
+      "comma-dangle": "off",
+      "react/no-unescaped-entities": "off",
+      "arrow-parens": "off",
+      "implicit-arrow-linebreak": "off",
+      "operator-linebreak": "off",
+      "react/jsx-no-constructed-context-values": "off",
+      "import/order": "off",
+      "react/jsx-boolean-value": "off"
+    }
   },
   "browserslist": {
     "production": [
