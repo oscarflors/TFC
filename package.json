@@ -29,8 +29,10 @@
       "comma-dangle": "off",
       "react/no-unescaped-entities": "off",
       "arrow-parens": "off",
+      "arrow-body-style": "off",
       "implicit-arrow-linebreak": "off",
       "operator-linebreak": "off",
+      "no-multi-spaces": "off",
       "react/jsx-no-constructed-context-values": "off",
       "import/order": "off",
       "react/jsx-boolean-value": "off"
